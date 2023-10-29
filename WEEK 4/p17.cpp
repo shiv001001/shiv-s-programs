@@ -1,22 +1,20 @@
 #include <stdio.h>
 int main()
 {
-int i,j,n,s;
+int i,j,n,count=0;
 n=5;
  for(i=0;i<n;i++)
  	{
- 		for(s=0;s<n-i;s++)
- 		{
- 			printf(" ");
-		}
  		for(j=0;j<i+1;j++)
  		{
- 			printf("* ");
-		}
+ 			printf("%d ", count+1 );
+		 	count+=1;
+		 }
 		 printf("\n");
 	 }
 
 
 
 }
+
 
